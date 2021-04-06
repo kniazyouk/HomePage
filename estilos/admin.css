@@ -1,0 +1,413 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: ;
+    margin: auto;
+    padding: 0px;
+    background-color: #222329;
+}
+header{
+    width: auto;
+    height: 150px;
+    margin: 0px;
+    padding: 0px;
+    background-color:rgba(200,200,200,0.1);
+}
+h1{
+  margin: 0px;
+  padding: 15px 35px 5px 0px;
+  position: relative;
+  float: right;
+  color: rgba(255, 255, 255, 0.1);
+  text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+  -webkit-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+  -moz-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+  -o-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+}
+#user{
+  margin: 0px;
+  height: 100px;
+  padding: 30px 10px 30px 10px;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.1);
+  text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+  -webkit-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+  -moz-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+  -o-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+}
+#logout{
+  position: absolute;
+  padding: 0px 5px 0px 15px;
+  margin-top: 20px;
+  color: #0465cc;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px #0465cc;
+  text-decoration: none;
+}
+#back{
+  position: absolute;
+  padding: 0px 5px 0px 15px;
+  margin-top: 20px;
+  color: #0465cc;
+  font-size: 30px;
+  text-shadow: none;
+  text-decoration: none;
+}
+#content{
+  position: relative;
+  height: 655px;
+  margin: 0px;
+  padding: 15px 150px 15px 150px;
+  text-align: center;
+}
+a{
+  color: #0677f0;
+  text-decoration: none;
+}
+a:hover{
+  color: darkslateblue;
+}
+footer{
+  margin-top:0px;
+  padding: 0px;
+  width: 100%;
+  height: 100px;
+  color: #D4D3D3;
+  background-color:rgba(200,200,200,0.1);
+  text-align: center;
+}
+p{
+  padding: 20px 0px 10px 0px;
+}
+
+/*/////////FOR ADMIN FORM ONLY\\\\\\\\\*/
+#grid-container-admin{
+  display: grid;
+  height: 450px;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  grid-gap: 50px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 100px 30px 100px 30px;
+}
+#grid-option{
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 20px 100px;
+  font-size: 35px;
+}
+/*/////////END\\\\\\\\\*/
+
+/*/////////FOR OPTIONS FORM ONLY\\\\\\\\\*/
+#grid-paymentOption{
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 20px 100px;
+  font-size: 35px;
+}
+#grid-paymentOption a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+#grid-viewOption{
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 35px;
+}
+#grid-viewOption a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+/*/////////END\\\\\\\\\*/
+
+/*RESPONSIVE*/
+@media screen and (max-width: 768px){
+  .container{
+    width: 100%;
+    height: 100%;  
+    }
+    #user{
+      margin: 0px;
+      height: 150px;
+      padding: 30px 10px 30px 10px;
+      font-size: 30px;
+      color: rgba(255, 255, 255, 0.1);
+      text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -webkit-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -moz-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -o-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+    }
+    h1{
+      margin: 0px;
+      padding: 10px 30px 0px 0px;
+      position: relative;
+      float: right;
+      color: rgba(255, 255, 255, 0.1);
+      text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -webkit-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -moz-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -o-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+    }
+    #content{
+      position: relative;
+      height: 740px;
+      margin: 0px;
+      padding: 15px 50px 15px 50px;
+    }
+    #grid-container-admin{
+      margin: 10px;
+      display: grid;
+      height: 520px;
+      align-content: space-evenly;
+      justify-content: space-evenly;
+      grid-template-columns: auto;
+      grid-template-rows: auto auto auto;
+      grid-gap: 50px;
+      background-color: rgba(0, 0, 0, 0.1);
+      padding: 100px 30px 100px 30px;
+    }
+  }
+@media screen and (max-width: 640px){
+  .container{
+    width: 100%;
+    height: 100%;  
+    }
+    header{
+      height: 100px;
+    }
+    #user{
+      margin: 0px;
+      height: 100px;
+      padding: 25px 10px 25px 10px;
+      font-size: 20px;
+      color: rgba(255, 255, 255, 0.1);
+      text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -webkit-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -moz-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -o-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+    }
+    h1{
+      margin: 0px;
+      padding: 10px 25px 0px 0px;
+      position: relative;
+      float: right;
+      color: rgba(255, 255, 255, 0.1);
+      text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -webkit-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -moz-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -o-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+    }
+    #back{
+      position: absolute;
+      padding: 0px 5px 0px 15px;
+      margin-top: 20px;
+      color: #0465cc;
+      font-size: 20px;
+      text-shadow: none;
+    }
+    #logout{
+      position: absolute;
+      padding: 0px 5px 0px 15px;
+      margin-top: 20px;
+      color: #0465cc;
+      font-size: 20px;
+      text-shadow: 1px 1px 1px #0465cc;
+      text-decoration: none;
+    }
+    #grid-container-admin{
+      display: grid;
+      height: 370px;
+      align-content: space-evenly;
+      justify-content: space-evenly;
+      grid-template-columns: auto;
+      grid-template-rows: auto auto auto;
+      grid-gap: 50px;
+      background-color: rgba(0, 0, 0, 0.1);
+      padding: 50px 30px 50px 30px;
+    }
+    #content{
+      position: relative;
+      height: 490px;
+      margin: 0px;
+      padding: 15px 50px 15px 50px;
+    }
+}
+@media screen and (max-width: 480px){
+  .container{
+    width: 100%;
+    height: 100%;  
+    }
+    header{
+      height: 100px;
+    }
+    #user{
+      margin: 0px;
+      height: 100px;
+      padding: 25px 10px 25px 10px;
+      font-size: 15px;
+      color: rgba(255, 255, 255, 0.1);
+      text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -webkit-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -moz-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -o-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+    }
+    h1{
+      margin: 0px;
+      padding: 20px 15px 0px 0px;
+      position: relative;
+      float: right;
+      color: rgba(255, 255, 255, 0.1);
+      text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -webkit-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -moz-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -o-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+    }
+    #back{
+      position: absolute;
+      padding: 0px 5px 0px 15px;
+      margin-top: 20px;
+      color: #0465cc;
+      font-size: 15px;
+      text-shadow: none;
+    }
+    #content{
+      position: relative;
+      height: 505px;
+      margin: 0px;
+      padding: 15px 30px 15px 30px;
+    }
+    #grid-container-admin{
+      display: grid;
+      height: 380px;
+      align-content: space-evenly;
+      justify-content: space-evenly;
+      grid-template-columns: auto;
+      grid-template-rows: auto auto auto;
+      grid-gap: 50px;
+      background-color: rgba(0, 0, 0, 0.1);
+      padding: 50px 30px 50px 30px;
+    }
+    #grid-paymentOption{
+      background-color: rgba(0, 0, 0, 0.5);
+      text-align: center;
+      padding: 20px 50px;
+      font-size: 35px;
+    }
+    #grid-option{
+      background-color: rgba(0, 0, 0, 0.5);
+      text-align: center;
+      padding: 20px 50px;
+      font-size: 35px;
+    }
+}
+@media screen and (max-width: 320px){
+  .container{
+    width: 100%;
+    height: 100%;  
+    }
+    header{
+      height: 90px;
+    }
+    #user{
+      margin: 0px;
+      height: 100px;
+      padding: 25px 10px 25px 10px;
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.1);
+      text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -webkit-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -moz-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -o-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+    }
+    h1{
+      margin: 0px;
+      padding: 20px 10px 0px 0px;
+      position: relative;
+      float: right;
+      color: rgba(255, 255, 255, 0.1);
+      text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -webkit-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -moz-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -o-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+    }
+    #back{
+      position: absolute;
+      padding: 0px 5px 0px 15px;
+      margin-top: 20px;
+      color: #0465cc;
+      font-size: 12px;
+      text-shadow: none;
+    }
+    #logout{
+      position: absolute;
+      padding: 0px 5px 0px 15px;
+      margin-top: 20px;
+      color: #0465cc;
+      font-size: 15px;
+      text-shadow: 1px 1px 1px #0465cc;
+      text-decoration: none;
+    }
+    #content{
+      position: relative;
+      height: 365px;
+      margin: 0px;
+      padding: 5px 50px 5px 50px;
+    }
+    #grid-container-admin{
+      display: grid;
+      height: 300px;
+      align-content: space-evenly;
+      justify-content: space-evenly;
+      grid-template-columns: auto;
+      grid-template-rows: auto auto auto;
+      grid-gap: 50px;
+      background-color: rgba(0, 0, 0, 0.1);
+      padding: 25px 10px 25px 10px;
+    }
+    #grid-paymentOption{
+      background-color: rgba(0, 0, 0, 0.5);
+      text-align: center;
+      padding: 5px 15px;
+      font-size: 20px;
+    }
+    #grid-viewOption{
+      background-color: rgba(0, 0, 0, 0.5);
+      text-align: center;
+      padding: 10px 0;
+      font-size: 20px;
+    }
+    #grid-option{
+      background-color: rgba(0, 0, 0, 0.5);
+      text-align: center;
+      padding: 20px 30px;
+      font-size: 20px;
+    }
+}

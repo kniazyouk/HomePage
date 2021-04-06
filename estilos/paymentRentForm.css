@@ -1,0 +1,405 @@
+/*/////////FOR PAYMENT FORM\\\\\\\\\*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: ;
+    margin: auto;
+    padding: 0px;
+    background-color: #222329;
+}
+header{
+    width: auto;
+    height: 150px;
+    margin: 0px;
+    padding: 0px;
+    background-color:rgba(200,200,200,0.1);
+}
+
+h1{
+  margin: 0px;
+  padding: 15px 35px 5px 0px;
+  position: relative;
+  float: right;
+  color: rgba(255, 255, 255, 0.1);
+  text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+  -webkit-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+  -moz-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+  -o-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+}
+#user{
+  margin: 0px;
+  height: 100px;
+  padding: 30px 10px 30px 10px;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.1);
+  text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+  -webkit-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+  -moz-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+  -o-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+}
+#logout{
+  position: absolute;
+  padding: 0px 5px 0px 15px;
+  margin-top: 20px;
+  color: #0465cc;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px #0465cc;
+  text-decoration: none;
+}
+#content{
+  position: relative;
+  height: 600px;
+  margin: 0px;
+  padding: 15px 50px 15px 50px;
+}
+#back{
+  position: absolute;
+  padding: 0px 5px 0px 15px;
+  margin-top: 20px;
+  color: #0465cc;
+  font-size: 30px;
+  text-shadow: none;
+  text-decoration: none;
+}
+/*/////////FOR PAYMENT FORM ONLY\\\\\\\\\*/
+
+#contentPaymentForm{
+  width: auto;
+  height: 685px;
+  margin: 0px;
+}
+/*
+form{
+  position: relative;
+  align-content: center;
+  width: auto;
+  height: 650px;
+  margin: 0px;
+  padding: 0px;
+}
+*/
+#grid-content {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 30px ;
+  padding: 150px 90px 150px 90px;
+  /*justify-content: space-evenly;*/
+  text-align: center;
+  font-size: 1em;
+}
+
+label{
+  font-size: 1.1em;
+  color: white;
+  padding: 0px 5px 0px 5px;
+  
+}
+input[type=number], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgba(0,0,0,.5);
+  background-color: rgba(20, 20, 20, 255);
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: white;
+  font-size: 1.1em;
+  text-align: center;
+}
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: 1px solid rgba(0,0,0,0.5);
+  border-radius: 4px;
+  background-color: rgba(20, 20, 20, 255);
+  color: white;
+  font-size: 1.1em;
+}
+textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgba(0,0,0,.5);
+  background-color: rgba(20, 20, 20, 255);
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: white;
+  font-size: 1.1em;
+}
+input[type=submit] {
+  width: 50%;
+  background-color: #379639;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+#btnRegist {
+  position: relative;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.1em;
+  margin: 4px 2px;
+  margin-left: 350px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  
+}
+#btnRegist:hover {
+  background-color: #4CAF50;
+  color: black;
+}
+/*/////////END\\\\\\\\\*/
+
+a{
+  color: #0465cc;
+}
+a:hover{
+  color: darkslateblue;
+}
+footer{
+  margin-top:0px;
+  padding: 0px;
+  width: 100%;
+  height: 100px;
+  color: #D4D3D3;
+  background-color:rgba(200,200,200,0.1);
+  text-align: center;
+}
+p{
+  padding: 20px 0px 10px 0px;
+}
+/*RESPONSIVE*/
+@media screen and (max-width: 768px){
+  .container{
+    width: 100%;
+    height: 100%;  
+    }
+    #user{
+      margin: 0px;
+      height: 150px;
+      padding: 30px 10px 30px 10px;
+      font-size: 30px;
+      color: rgba(255, 255, 255, 0.1);
+      text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -webkit-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -moz-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -o-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+    }
+    h1{
+      margin: 0px;
+      padding: 10px 30px 0px 0px;
+      position: relative;
+      float: right;
+      color: rgba(255, 255, 255, 0.1);
+      text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -webkit-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -moz-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -o-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+    }
+    #contentPaymentForm{
+      width: auto;
+      height: 770px;
+    }
+    #btnRegist {
+      margin-left: 210px; 
+    }
+  }
+@media screen and (max-width: 640px){
+  .container{
+    width: 100%;
+    height: 100%;  
+    }
+    header{
+      height: 100px;
+    }
+    #user{
+      margin: 0px;
+      height: 100px;
+      padding: 25px 10px 25px 10px;
+      font-size: 20px;
+      color: rgba(255, 255, 255, 0.1);
+      text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -webkit-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -moz-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -o-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+    }
+    h1{
+      margin: 0px;
+      padding: 10px 25px 0px 0px;
+      position: relative;
+      float: right;
+      color: rgba(255, 255, 255, 0.1);
+      text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -webkit-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -moz-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -o-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+    }
+    #back{
+      position: absolute;
+      padding: 0px 5px 0px 15px;
+      margin-top: 20px;
+      color: #0465cc;
+      font-size: 20px;
+      text-shadow: none;
+    }
+    #contentPaymentForm{
+      width: auto;
+      height: 520px;
+    }
+    #grid-content {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-gap: 15px ;
+      padding: 80px 50px 50px 50px;
+      /*justify-content: space-evenly;*/
+      text-align: center;
+      font-size: 1em;
+    }
+    #btnRegist {          
+      margin-left: 140px;
+    }
+}
+@media screen and (max-width: 480px){
+  .container{
+    width: 100%;
+    height: 100%;  
+    }
+    header{
+      height: 100px;
+    }
+    #user{
+      margin: 0px;
+      height: 100px;
+      padding: 25px 10px 25px 10px;
+      font-size: 15px;
+      color: rgba(255, 255, 255, 0.1);
+      text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -webkit-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -moz-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -o-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+    }
+    h1{
+      margin: 0px;
+      padding: 20px 15px 0px 0px;
+      position: relative;
+      float: right;
+      color: rgba(255, 255, 255, 0.1);
+      text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -webkit-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -moz-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -o-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+    }
+    #back{
+      position: absolute;
+      padding: 0px 5px 0px 15px;
+      margin-top: 20px;
+      color: #0465cc;
+      font-size: 15px;
+      text-shadow: none;
+    }
+    #contentPaymentForm{
+      width: auto;
+      height: 535px;
+    }
+    #grid-content {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-gap: 15px ;
+      padding: 80px 30px 50px 30px;
+      /*justify-content: space-evenly;*/
+      text-align: center;
+      font-size: 1em;
+    }
+    #btnRegist {          
+      margin-left: 110px;
+    }
+}
+@media screen and (max-width: 320px){
+  .container{
+    width: 100%;
+    height: 100%;  
+    }
+    header{
+      height: 90px;
+    }
+    #user{
+      margin: 0px;
+      height: 100px;
+      padding: 25px 10px 25px 10px;
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.1);
+      text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -webkit-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -moz-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -o-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+    }
+    h1{
+      margin: 0px;
+      padding: 20px 10px 0px 0px;
+      position: relative;
+      float: right;
+      color: rgba(255, 255, 255, 0.1);
+      text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -webkit-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -moz-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+      -o-text-shadow: 0.3px 0.3px 0.3px rgba(255, 255, 255, 0.9);
+    }
+    #back{
+      position: absolute;
+      padding: 0px 5px 0px 15px;
+      margin-top: 20px;
+      color: #0465cc;
+      font-size: 12px;
+      text-shadow: none;
+    }
+    #contentPaymentForm{
+      width: auto;
+      height: 750px;
+    }
+    #grid-content {
+      display: grid;
+      grid-template-columns: auto;
+      grid-gap: 15px ;
+      padding: 10px 30px 50px 30px;
+      /*justify-content: space-evenly;*/
+      text-align: center;
+      font-size: 0.9em;
+    }
+    #btnRegist {          
+      margin-left: 80px;
+    }
+}

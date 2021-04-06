@@ -1,0 +1,13 @@
+
+GREEK FUTURA LDR Font
+
+Greek letters are coded both in Unicode ranges 370-3FF, 1F00-1FFF and in ASCII set.
+In ASCII set Greek alphabet is to be typed with the following keys: 
+A, B, G, D, E, Z, H, Q, I, K, L, M, N, C, O, P, R, S, T, U, F, X, Y, W.
+A special sign for "kai" is obtainable with ampersand key.
+
+This Font is Copyright © Luigi Della Rosa - All rights reserved
+
+Free for educational purposes and personal use - Any alteration is expressly forbidden.
+
+- ldr.00@libero.it -

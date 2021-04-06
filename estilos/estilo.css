@@ -1,0 +1,457 @@
+/*RESET FORMAT*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+    /*overflow: hidden;*/
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: ;
+    margin: auto;
+    padding: 0px;
+    background-image: radial-gradient(#546e54 10%,  #2e5357 90%);
+}
+
+.header{
+    background-color: rgba(0,0,0,0.3);
+    height: 100px;
+}
+#logotipo{
+    margin: auto;
+    padding: 10px;
+    display: block;
+    width: 150px;
+    height: 100px;
+}
+#logo{
+    
+}
+/*//////////content/////////*/
+#content{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 439px;
+}
+#title{
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.6em;
+    font-family: ;
+    
+}
+h2{
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    font-family: ;
+}
+#login{
+    position: relative;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    font-size: 100px;
+}
+input{
+    margin-top: -50px;
+    padding: 20px 30px 20px 30px;
+    font-family: ;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -o-border-radius: 15px;
+    color: white; 
+    border: 0;
+    background-color: rgba(0,0,0,0.090);
+    -webkit-background-color: rgba(0,0,0,0.090);
+    -moz-background-color: rgba(0,0,0,0.090);
+    -o-background-color: rgba(0,0,0,0.090);
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.8);
+    -webkit-text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+    -moz-text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+    -o-text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+    box-shadow: inset 0px 0px 0px rgba(100,100,100,1),2px 2px 1px rgba(255,255,255,0.3);    
+    -webkit-box-shadow: inset 0px 0px 0px rgba(100,100,100,1),2px 2px 1px rgba(255,255,255,0.3);
+    -moz-box-shadow: inset 0px 0px 0px rgba(100,100,100,1),2px 2px 1px rgba(255,255,255,0.3);
+    -o-box-shadow: inset 0px 0px 0px rgba(100,100,100,1),2px 2px 1px rgba(255,255,255,0.3);
+}
+input:hover{
+    box-shadow: 0px 0px 15px rgba(100,100,100,0.8);
+    -webkit-box-shadow: 0px 0px 15px rgba(100,100,100,0.8);
+    -moz-box-shadow: 0px 0px 15px rgba(100,100,100,0.8);
+    -o-box-shadow: 0px 0px 15px rgba(100,100,100,0.8);
+    background-color: rgba(3,3,3,0.3);
+}
+#button{
+    text-align-last: center;
+    background-color: #23747d;
+    color: black;
+    font-family: Bold;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+#button:hover{
+    background: #3bbecc;
+}
+
+#footer{
+    position: relative;
+    padding: 5px 30px 5px 30px;
+    background-color: rgba(0,0,0,0.3);
+    height: 97px;
+    font-size: 0.73em;
+}
+h3{
+    font-size: ;
+    font-family: ;
+    font-weight: ;
+}
+#contactInfo{
+    padding-left: 10px;
+    padding-top: 5px;
+}
+#webPage{
+    position: relative;
+    float: left;
+}
+#phones{
+    
+}
+p{
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+a{
+    color: darkblue;
+}
+a:hover{
+    color: darkslateblue;
+}
+
+/*///RESPONSIVE///*/      
+@media screen and (max-width: 1500px){
+  .container{
+    display: contents;
+      
+    }
+    .header{
+        width: 100%;
+        height: 200px;
+    }
+    #logotipo{
+        position: relative;
+        float: center;
+        margin: auto;
+        padding: 30px;
+        display: block;
+        width: 250px;
+        height: 150px;
+    }
+    #content{
+        height: 450px;
+    }
+    #title{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    #login{
+        
+    }
+    #name{
+        margin-bottom: 0px;
+    }
+    #password{
+        margin-top: 0px;
+    }
+    #button{
+        margin-top: 0px;
+    }
+    #footer{
+        padding: 50px;
+        height: 170px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    #contactInfo{
+        padding-left: 30px;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    #info{
+        position: relative;
+        float: left;
+    }
+}
+    
+   
+@media screen and (max-width: 800px){
+  .container{
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;  
+    }
+    #header{
+        height: 150px;
+    }
+    #content{
+        padding: 35px 10px 35px 10px;
+        height: 495px;
+    }
+    #title{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    #login{
+        
+    }
+    input{
+        padding: 15px 25px 15px 25px;
+        font-size: 15px;
+        margin-top: 0px;
+    }
+    #name{
+        margin-top: -50px;
+    }
+    #password{
+        margin-top: -150px;
+    }
+    #button{
+        margin-top: -250px;
+    }
+    #footer{
+        height: 210px;
+        padding: 25px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    #contactInfo{
+        padding: 20px 30px 20px 30px; 
+        font-size: 20px;
+    }
+    #info{
+        position: relative;
+        float: left;
+    }
+    p{
+        padding: 90px 10px 5px 10px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px){
+  .container{
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;  
+    }
+    #header{
+        height: 150px;
+    }
+    #content{
+        padding: 5px 5px 5px 5px;
+        height: 300px;
+    }
+    #title{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    #login{
+        
+    }
+    input{
+        padding: 15px 25px 15px 25px;
+        font-size: 15px;
+        margin-top: -50px;
+    }
+    #name{
+        margin-top: -80px;
+    }
+    #password{
+        margin-top: -180px;
+    }
+    #button{
+        margin-top: -260px;
+    }
+    #footer{
+        padding: 10px 15px 10px 15px;
+        height: 206px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    #contactInfo{
+        padding-left: 20px;
+        padding-top: 20px;
+        font-size: 15px;
+    }
+    #info{
+        position: relative;
+    }    
+    p{    
+        margin-top: -10px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .container{
+      margin-left: 0px;
+      width: 100%;
+      height: 100%;  
+      }
+      .header{
+          height: 100px;
+      }
+      #logotipo{
+          margin: auto;
+          padding: 10px;
+          display: block;
+          width: 150px;
+          height: 100px;
+      }
+      #content{
+          padding: 5px 5px 5px 5px;
+          height: 400px;
+      }
+      #title{
+          font-size: 20px;
+      }
+      h2{
+          font-size: 18px;
+      }
+      #login{
+          
+      }
+      input{
+          padding: 15px 25px 15px 25px;
+          font-size: 15px;
+          margin-top: -60px;
+      }
+      #name{
+          margin-top: -70px;
+      }
+      #password{
+          margin-top: -160px;
+      }
+      #button{
+          margin-top: -260px;
+      }
+      #footer{
+          height: 140px;
+      }
+      h3{
+          font-size: 15px;
+      }
+      #contactInfo{
+          padding-left: 20px;
+          padding-top: 10px;
+          font-size: 15px;
+      }
+      #info{
+          position: relative;
+      }    
+      p{  
+          font-size: 10px;
+          margin-top: -30px;
+      }
+}
+
+@media screen and (max-width: 350px){
+  .container{
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;  
+    }
+    .header{
+        height: 100px;
+    }
+    #logotipo{
+        margin: auto;
+        padding: 10px;
+        display: block;
+        width: 150px;
+        height: 100px;
+    }
+    #content{
+        padding: 5px 5px 5px 5px;
+        height: 300px;
+    }
+    #title{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    #login{
+        
+    }
+    input{
+        padding: 15px 25px 15px 25px;
+        font-size: 15px;
+        margin-top: -60px;
+    }
+    #name{
+        margin-top: -70px;
+    }
+    #password{
+        margin-top: -160px;
+    }
+    #button{
+        margin-top: -260px;
+    }
+    #footer{
+        height: 140px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    #contactInfo{
+        padding-left: 20px;
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    #info{
+        position: relative;
+    }    
+    p{  
+        font-size: 10px;
+        margin-top: -30px;
+    }
+}
