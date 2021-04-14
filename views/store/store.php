@@ -22,7 +22,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta http-equiv="refresh" content="">
-    <link rel="icon" href="../img/logo.ico">
+    <link rel="icon" type="image/png" href="../../img/icon/favicon.png" sizes="32x32">
     <title>Admin Form</title>
     <style>
       .dropbtn {
@@ -179,6 +179,7 @@
         <section id="user">
           Hey!, Kniaz Youk<?php  ?><br>
           <a id="back" href="http://localhost:60/HomePage/views/admin.php">Back</a>
+          <!--  <a id="back" href="https://4rent1118.000webhostapp.com/views/admin.php">Back</a> -->
           <h1>Administrator</h1>
         </section>
       </header>

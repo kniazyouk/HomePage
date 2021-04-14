@@ -77,7 +77,7 @@
         <link rel="stylesheet" type="text/css" href="../estilos/estilo.css">
         <meta http-equiv="refresh" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="img/logo.ico">
+        <link rel="icon" type="image/png" href="../img/icon/favicon.png" sizes="32x32">
         <title>Προς ενοικίαση! at Tejada Sorzano #1118</title>
 
         <style media="screen">

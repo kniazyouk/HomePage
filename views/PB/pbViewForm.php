@@ -23,7 +23,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta http-equiv="refresh" content="">
-    <link rel="icon" href="../img/logo.ico">
+    <link rel="icon" type="image/png" href="../../img/icon/favicon.png" sizes="32x32">
     <title>Inqulino de la PB</title>
 </head>
 <body>
@@ -32,6 +32,7 @@
         <section id="user">
           Hola, Inquilino de la PB<?php  ?><br>
           <a id="logout" href="http://localhost:60/HomePage/views/login.php?cerrar_sesion=1">Salir</a>
+          <!-- <a id="logout" href="https://4rent1118.000webhostapp.com/views/login.php?cerrar_sesion=1">Salir</a>  -->
           <h1>Formulario de Vista</h1>
         </section>
       </header>

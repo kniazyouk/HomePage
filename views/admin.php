@@ -18,11 +18,12 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="../estilos/admin.css">
+    <link rel="icon" type="image/png" href="../img/icon/favicon.png" sizes="32x32">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta http-equiv="refresh" content="">
-    <link rel="icon" href="img/logo.ico">
+    
     <title>Admin Form</title>
 </head>
 <body>
